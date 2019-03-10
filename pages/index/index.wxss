@@ -1,0 +1,36 @@
+/* pages/index/index.wxss */
+.film_list{
+  background: white;
+}
+.film_img{
+  height: 400rpx;
+  width: 300rpx;
+  float: left;
+  margin-bottom: 30rpx;
+}
+.film_content{
+  margin-left: 330rpx;
+}
+.film-desc{
+  padding-left: 
+}
+.film_title{
+  font-size: 60rpx;
+  color: rgba(255, 0, 0, 0.89);
+  line-height: 100rpx;
+}
+.film_desc{
+  font-size: 25rpx;
+  margin-left: 18rpx;
+}
+.film_length{
+  font-size: 25rpx;
+  margin-left: 18rpx;
+}
+.film_points{
+  float: right;
+  color:rgba(0, 162, 255, 0.747);
+}
+.btn_details{
+  margin-top: 90rpx;
+}

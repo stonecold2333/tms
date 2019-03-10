@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recommand/recommand",
+    "pages/order/order",
+    "pages/user_info/user_info"
+  ],
+  
+  "window":{
+    "backgroundTextStyle" : "light",
+    "navigationBarBackgroundColor" : "#FF133A",
+    "navigationBarTitleText" : "影片浏览",
+    "navigationBarTextStyle" : "black"
+  },
+  "tabBar": {
+    "selectedColor" : "#F9103D",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "https://tms-1258778893.cos.ap-shanghai.myqcloud.com/%E5%88%9B%E6%84%8F%E5%BA%93/%E5%9B%BE%E6%A0%87/tabbar_1.png?q-sign-algorithm=sha1&q-ak=AKIDvjIy842LXs6Ch0jID1JnE0yp089pBkl6&q-sign-time=1552202264;1552204064&q-key-time=1552202264;1552204064&q-header-list=&q-url-param-list=&q-signature=abb0271acd25be3af77e1548dc20c1726f6bcc8a&x-cos-security-token=da30902ed5485a0959a584ab9c80100aa82d45d910001",
+      "selectedIconPath": "https://tms-1258778893.cos.ap-shanghai.myqcloud.com/%E5%88%9B%E6%84%8F%E5%BA%93/%E5%9B%BE%E6%A0%87/tabbar_1.png?q-sign-algorithm=sha1&q-ak=AKIDvjIy842LXs6Ch0jID1JnE0yp089pBkl6&q-sign-time=1552202264;1552204064&q-key-time=1552202264;1552204064&q-header-list=&q-url-param-list=&q-signature=abb0271acd25be3af77e1548dc20c1726f6bcc8a&x-cos-security-token=da30902ed5485a0959a584ab9c80100aa82d45d910001"
+    },
+    {
+      "pagePath": "pages/recommand/recommand",
+      "text": "推荐",
+      "iconPath": "images/icon/tabbar_2.png",
+      "selectedIconPath": "images/icon/tabbar_2.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "images/icon/tabbar_3.png",
+      "selectedIconPath": "images/icon/tabbar_3.png"
+    },
+    {
+      "pagePath": "pages/user_info/user_info",
+      "text": "个人信息",
+      "iconPath": "images/icon/tabbar_4.png",
+      "selectedIconPath": "images/icon/tabbar_4.png"
+    }
+    ]
+  }
+}

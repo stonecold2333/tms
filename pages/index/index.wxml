@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+
+<view class='film_list'>  
+  <view class='film_item' wx:for="{{filmlist}}">
+    <image class='film_img' src='{{item.img}}'></image>
+    <view class='film_content'>
+      <view class='film_title'>{{item.title}}</view>
+      <view class='film_desc'>{{item.desc}}</view>
+      <view class='film_length'>{{item.length}}</view>
+      <view class='film_points'>{{item.points}}</view>
+    </view>
+    <button class='btn_details'>电影详情</button>
+  </view>
+</view>
